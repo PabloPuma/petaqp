@@ -1,0 +1,242 @@
+{% extends "base.html.twig" %}
+
+
+{% block body %}
+
+    <header>
+        <div class="text-center" style="margin-left:240px; margin-right: auto; " >
+        <div class="text-center row col-lg-10">
+        <H1 class="border border-warning"  style="	color: darkblue; border: solid white 1px; border-radius: 26px; padding: 20px; text-align: center; font: oblique bold 120% cursive;">
+            <img src="{{ asset("galeria/regalo.webp")}}"> ¡Todos los Wufs venimos con un kit de regalo que incluye alimento, cama, galletas, collar con placa, sesión de paseo microchip y antipulgas!</H1>
+
+            <br>
+            <br>
+            <br>
+        </div>
+        </div>
+        <div class="position-absolute end-0">
+        <button data-fullwidth="true" data-mobile="false" data-hook="dropdown-base" class="buttonnext3444816478__root Focusable3821007195__root Button1196394201__root Button1196394201--fullWidth DropdownBase1504909505__root Dropdown2597295199__dropdownBase Button1196394201__hasIcon" aria-expanded="false" role="listbox" type="button" tabindex="0"><span class="buttonnext3444816478__content"><div class="DropdownBase1504909505__childrenWrapper" data-hook="dropdown-base-text">Organizar por</div></span><span class="buttonnext3444816478__suffix Button1196394201__suffix-icon Button1196394201__affixIcon" data-hook="suffix-icon"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="DropdownBase1504909505__arrowIcon;"><path fill="#000" d="M12 15L6 9.76 6.657 9l5.342 4.666L17.343 9l.657.76z" fill-rule="evenodd"></path></svg></span></button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <br><br><br><br>
+        <div class="row">
+
+            <div class="col-lg-3">
+
+                <h1 class="my-4">Filtrar por</h1>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Edad</a>
+
+                    <div aria-hidden="false" class="rah-static rah-static--height-auto" style="height: auto; overflow: visible;"><div><div class="ZvIh9 _2Ntjc"><ul class="W2lq5"><li><input class="_3GkNn" data-hook="input" type="checkbox" id="0TPASection_kgtr8nxqa206eef5-1aee-8af0-2f1a-5ac4e8889d23" value="a206eef5-1aee-8af0-2f1a-5ac4e8889d23"><label class="wixSdkShowFocusOnSibling _1xcO5" data-hook="label" for="0TPASection_kgtr8nxqa206eef5-1aee-8af0-2f1a-5ac4e8889d23"><span class="Dhmbc">1 - 3 años</span></label></li><li><input class="_3GkNn" data-hook="input" type="checkbox" id="0TPASection_kgtr8nxq34774903-2eb7-bc59-8384-aed5ac8de320" value="34774903-2eb7-bc59-8384-aed5ac8de320"><label class="wixSdkShowFocusOnSibling _1xcO5" data-hook="label" for="0TPASection_kgtr8nxq34774903-2eb7-bc59-8384-aed5ac8de320"><span class="Dhmbc">4 - 7 años</span></label></li><li><input class="_3GkNn" data-hook="input" type="checkbox" id="0TPASection_kgtr8nxq4a072eb5-75b1-448a-b8ca-2f3b5036862b" value="4a072eb5-75b1-448a-b8ca-2f3b5036862b"><label class="wixSdkShowFocusOnSibling _1xcO5" data-hook="label" for="0TPASection_kgtr8nxq4a072eb5-75b1-448a-b8ca-2f3b5036862b"><span class="Dhmbc">7 + años</span></label></li></ul></div></div></div>
+                    <a href="#" class="list-group-item">Tamaño</a>
+                    <div aria-hidden="false" class="rah-static rah-static--height-auto" style="height: auto;"><div style=""><div class="ZvIh9 _2Ntjc"><ul class="W2lq5"><li><input class="_3GkNn" data-hook="input" type="checkbox" id="1TPASection_kgtr8nxq0eec79bb-3ab6-00b5-d853-4c4172d5f31a" value="0eec79bb-3ab6-00b5-d853-4c4172d5f31a"><label class="wixSdkShowFocusOnSibling _1xcO5" data-hook="label" for="1TPASection_kgtr8nxq0eec79bb-3ab6-00b5-d853-4c4172d5f31a"><span class="Dhmbc">Mediano</span></label></li><li><input class="_3GkNn" data-hook="input" type="checkbox" id="1TPASection_kgtr8nxqa0e88338-b66d-5fad-ed14-28016ff6b610" value="a0e88338-b66d-5fad-ed14-28016ff6b610"><label class="wixSdkShowFocusOnSibling _1xcO5" data-hook="label" for="1TPASection_kgtr8nxqa0e88338-b66d-5fad-ed14-28016ff6b610"><span class="Dhmbc">Grande</span></label></li><li><input class="_3GkNn" data-hook="input" type="checkbox" id="1TPASection_kgtr8nxqb1583807-6b75-8992-5264-da40664bcfea" value="b1583807-6b75-8992-5264-da40664bcfea"><label class="wixSdkShowFocusOnSibling _1xcO5" data-hook="label" for="1TPASection_kgtr8nxqb1583807-6b75-8992-5264-da40664bcfea"><span class="Dhmbc">Muy Grande</span></label></li></ul></div></div></div>
+                    <a href="#" class="list-group-item">Sexo</a>
+                    <div aria-hidden="false" class="rah-static rah-static--height-auto" style="height: auto;"><div style=""><div class="ZvIh9 _2Ntjc"><ul class="W2lq5"><li><input class="_3GkNn" data-hook="input" type="checkbox" id="2TPASection_kgtr8nxq5f7cd17c-5b95-150e-cd47-4a7d2eb7102d" value="5f7cd17c-5b95-150e-cd47-4a7d2eb7102d"><label class="wixSdkShowFocusOnSibling _1xcO5" data-hook="label" for="2TPASection_kgtr8nxq5f7cd17c-5b95-150e-cd47-4a7d2eb7102d"><span class="Dhmbc">Hembra</span></label></li><li><input class="_3GkNn" data-hook="input" type="checkbox" id="2TPASection_kgtr8nxq03b07a15-1c92-5a60-d9e8-9eec01889e23" value="03b07a15-1c92-5a60-d9e8-9eec01889e23"><label class="wixSdkShowFocusOnSibling _1xcO5" data-hook="label" for="2TPASection_kgtr8nxq03b07a15-1c92-5a60-d9e8-9eec01889e23"><span class="Dhmbc">Macho</span></label></li></ul></div></div></div>
+                    <a href="#" class="list-group-item">Nivel de Actividad</a>
+                    <div aria-hidden="false" class="rah-static rah-static--height-auto" style="height: auto;"><div style=""><div class="ZvIh9 _2Ntjc"><ul class="W2lq5"><li><input class="_3GkNn" data-hook="input" type="checkbox" id="3TPASection_kgtr8nxq96402a2c-df5a-171e-128c-9fa97927bd21" value="96402a2c-df5a-171e-128c-9fa97927bd21"><label class="wixSdkShowFocusOnSibling _1xcO5" data-hook="label" for="3TPASection_kgtr8nxq96402a2c-df5a-171e-128c-9fa97927bd21"><span class="Dhmbc">Bajo</span></label></li><li><input class="_3GkNn" data-hook="input" type="checkbox" id="3TPASection_kgtr8nxqc87dc1dc-3cd2-ba8a-62cb-bd00b13db350" value="c87dc1dc-3cd2-ba8a-62cb-bd00b13db350"><label class="wixSdkShowFocusOnSibling _1xcO5" data-hook="label" for="3TPASection_kgtr8nxqc87dc1dc-3cd2-ba8a-62cb-bd00b13db350"><span class="Dhmbc">Medio</span></label></li><li><input class="_3GkNn" data-hook="input" type="checkbox" id="3TPASection_kgtr8nxqf9c11e00-5383-c9d5-8faa-ca06da117d02" value="f9c11e00-5383-c9d5-8faa-ca06da117d02"><label class="wixSdkShowFocusOnSibling _1xcO5" data-hook="label" for="3TPASection_kgtr8nxqf9c11e00-5383-c9d5-8faa-ca06da117d02"><span class="Dhmbc">Alto</span></label></li></ul></div></div></div>
+                    <a href="#" class="list-group-item">largo de pelo</a>
+                    <div aria-hidden="false" class="rah-static rah-static--height-auto" style="height: auto;"><div style=""><div class="ZvIh9 _2Ntjc"><ul class="W2lq5"><li><input class="_3GkNn" data-hook="input" type="checkbox" id="4TPASection_kgtr8nxq2d574733-1ade-af24-2273-ad134fb527d1" value="2d574733-1ade-af24-2273-ad134fb527d1"><label class="wixSdkShowFocusOnSibling _1xcO5" data-hook="label" for="4TPASection_kgtr8nxq2d574733-1ade-af24-2273-ad134fb527d1"><span class="Dhmbc">Corto</span></label></li><li><input class="_3GkNn" data-hook="input" type="checkbox" id="4TPASection_kgtr8nxqcc7ed649-a33a-14ea-840e-7e8803217b50" value="cc7ed649-a33a-14ea-840e-7e8803217b50"><label class="wixSdkShowFocusOnSibling _1xcO5" data-hook="label" for="4TPASection_kgtr8nxqcc7ed649-a33a-14ea-840e-7e8803217b50"><span class="Dhmbc">Largo</span></label></li></ul></div></div></div>
+                </div>
+
+            </div>
+            <!-- /.col-lg-3 -->
+
+            <div class="col-lg-9">
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                            <a ><img  src="{{ asset("galeria/adopta1.webp")}}" width="100%" alt=""></a>
+                            <div class="card-body">
+                                <h5 class="text-center">BLANCA</h5>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary">QUIERO ADOPTAR</button>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                            <a ><img  src="{{ asset("galeria/adopta2.webp")}}" width="100%" alt=""></a>
+                            <div class="card-body">
+                                <h5 class="text-center">GALA</h5>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary">QUIERO ADOPTAR</button>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                            <a ><img  src="{{ asset("galeria/adopta3.webp")}}" width="100%" alt=""></a>
+                            <div class="card-body">
+                                <h5 class="text-center">KALI</h5>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary">QUIERO ADOPTAR</button>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                            <a ><img  src="{{ asset("galeria/adopta4.webp")}}" width="100%" alt=""></a>
+                            <div class="card-body">
+                                <h5 class="text-center">LOBA</h5>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary">QUIERO ADOPTAR</button>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                            <a ><img  src="{{ asset("galeria/adopta5.webp")}}" width="100%" alt=""></a>
+                            <div class="card-body">
+                                <h5 class="text-center">NACHO</h5>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary">QUIERO ADOPTAR</button>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                            <a ><img  src="{{ asset("galeria/adopta6.webp")}}" width="100%" alt=""></a>
+                            <div class="card-body">
+                                <h5 class="text-center">NAPEOLEON</h5>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary">QUIERO ADOPTAR</button>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                            <a ><img  src="{{ asset("galeria/adopta7.webp")}}" width="100%" alt=""></a>
+                            <div class="card-body">
+                                <h5 class="text-center">FERNANDA</h5>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary">QUIERO ADOPTAR</button>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                            <a ><img  src="{{ asset("galeria/adopta8.webp")}}" width="100%" alt=""></a>
+                            <div class="card-body">
+                                <h5 class="text-center">FIRULAIS</h5>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary">QUIERO ADOPTAR</button>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                            <a ><img  src="{{ asset("galeria/adopta9.webp")}}" width="100%" alt=""></a>
+                            <div class="card-body">
+                                <h5 class="text-center">FLAQUITO</h5>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary">QUIERO ADOPTAR</button>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                            <a ><img  src="{{ asset("galeria/adopta10.webp")}}" width="100%" alt=""></a>
+                            <div class="card-body">
+                                <h5 class="text-center">FORTACHON</h5>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary">QUIERO ADOPTAR</button>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                            <a  ><img  src="{{ asset("galeria/adopta11.webp")}}" width="100%" alt=""></a>
+                            <div class="card-body">
+                                <h5 class="text-center">GRINGA</h5>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary">QUIERO ADOPTAR</button>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                            <a ><img  src="{{ asset("galeria/adopta12.webp")}}" width="100%"alt=""></a>
+                            <div class="card-body">
+                                <h5 class="text-center">GRINGA</h5>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary">QUIERO ADOPTAR</button>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.col-lg-9 -->
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+{% endblock %}

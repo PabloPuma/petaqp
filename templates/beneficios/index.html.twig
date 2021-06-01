@@ -1,0 +1,61 @@
+{% extends "base.html.twig" %}
+
+
+{% block body %}
+
+
+
+    <div class="text-center">
+        <h3 style="color: darkblue; text-align: center; font: oblique bold 400% cursive;" class="section-heading text-uppercase"> Beneficios <img src="{{ asset("galeria/LOGO.png")}}"></h3>
+
+        <h5>¡Estos son los beneficios que obtienes al suscribirte a Club WUF!</h5>
+        <br><br><br>
+    </div>
+
+        <div class="row" >
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <a  class="navbar-brand" href="{{ path("app_republic") }}"><img  src="{{ asset("galeria/pets.webp")}}" width="100%" alt=""></a>
+                    <div class="card-body">
+                        <h5 style="	color: darkblue; text-align: center; font: oblique bold 200% cursive;" class="text-center" >Pet's Republic</h5>
+                        <h3>¡15% de descuento en tu compra por la web!</h3>
+                        <br>
+                        <a  href="{{ path("app_republic") }}" class="stretched-link">Ver mas</a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <a  class="navbar-brand" href="{{ path("app_tienda") }}"><img  src="{{ asset("galeria/tienda.webp")}}" width="100%" alt=""></a>
+                    <div class="card-body">
+                        <h5 style="	color: darkblue; text-align: center; font: oblique bold 200% cursive;" class="text-center">Tienda Pet</h5>
+                        <h3>¡Hasta 15% de descuento en tu compra y delivery gratis!!</h3>
+                        <BR>
+                        <a href="{{ path("app_tienda") }}" class="stretched-link">Ver mas</a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <a  class="navbar-brand" href="{{ path("app_bio") }}"><img  src="{{ asset("galeria/bio.webp")}}" width="100%" alt=""></a>
+                    <div class="card-body">
+                        <h5 style="	color: darkblue; text-align: center; font: oblique bold 200% cursive;" class="text-center">Biobites</h5>
+                        <h3>¡30% de dscto. en tu primera compra y 15% en las siguientes!</h3>
+
+                        <a href="{{ path("app_bio") }}" class="stretched-link">Ver mas</a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- /.row -->
+{% endblock %}

@@ -1,0 +1,101 @@
+{% extends "base.html.twig" %}
+
+
+{% block body %}
+
+    <section class="page-section" id="apadrina">
+        <br><br>
+        <div class="container">
+            <div class="text-center">
+                <h2 style="	color: darkblue; text-align: center; font: oblique bold 200% cursive;" class="section-heading text-uppercase">apadrina <img src="{{ asset("galeria/LOGO.png")}}" alt=""></h2>
+            </div>
+            <br><br>
+            <div class="row text-center">
+                <div class="col-md-5 col-sm-5">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset("galeria/club1.webp")}}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset("galeria/club2.webp")}}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset("galeria/club3.webp")}}" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="col-md-7 col-sm-7">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                    <img src="{{ asset("galeria/club10.webp")}}"  width="15%" style="padding: 10px"  class="mx-auto d-block img-fluid" alt="...">
+                    <h4 style="	color: darkblue; text-align: center; font: oblique bold 150% cursive;" class="my-1">¡Ayúdanos a llevar alimento a los albergues y recibe cientos de descuentos a cambio!</h4>
+                    <br>
+                    <div class="row row-cols-1 row-cols-md-4 g-1 ">
+                        <div class="col">
+                            <div class="card">
+                                <img src="{{ asset("galeria/pets.webp")}}"  width="70%"  class=" mx-auto d-block img-fluid"alt="...">
+                                <div class="card-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="{{ asset("galeria/tienda.webp")}}"  width="70%" class=" mx-auto d-block img-fluid" alt="...">
+                                <div class="card-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="{{ asset("galeria/bio.webp")}}"  width="70%" style="padding: 5px" class="mx-auto d-block img-fluid" alt="...">
+                                <div class="card-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="{{ asset("galeria/claws.webp")}}"  width="70%"   class="mx-auto d-block img-fluid" alt="...">
+                                <div class="card-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                    </div>
+                    <div class="text center">
+                        <br><br>
+                        <div role="group" aria-label="Third group">
+                            <button type="button" class="btn btn-primary">APADRINA DESDE S/9.99</button>
+                        </div>
+                        <br>
+                        <div >
+                            <a   href="{{ path("app_beneficios") }}"  class="stretched-link">Ver todos los benficios</a>
+                        </div>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
